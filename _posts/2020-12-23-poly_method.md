@@ -67,4 +67,6 @@ we can even make it `v_int->*print(std::cout)` by cheating.
       {
         return args_first<Args...>{ f, std::tuple<Args&&...>(std::forward<Args>(args)...) };
       }
-but that starts getting insane.
+which is a lot of work for a small improvement.
+
+https://godbolt.org/z/9EKj3e
