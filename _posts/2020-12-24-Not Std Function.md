@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Poly Method
+title: Function View
 ---
 
 Type erasure based polymorphism example.
@@ -34,5 +34,6 @@ Type erasure based polymorphism example.
       function_view(function_view const&)=default;
       function_view& operator=(function_view const&)=default;
     };
+    
 this is a standard layout, non-owning `std::function<R(Args...)>`.
 If your `std::function` does not need to persist past the function call, this can be more efficient and also more DLL-safe.
