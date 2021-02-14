@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Fixed size std function
 ---
+
+title: Fixed size std function
 
 Sometimes you want to avoid heap allocation in your vocabulary types.  Maybe you are on an embedded system with no heap, or maybe you just don't want accidental overhead.
 
