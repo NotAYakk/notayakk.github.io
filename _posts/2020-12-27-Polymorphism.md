@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Intro to C++ Polymorphism 
 ---
+
+title: Intro to C++ Polymorphism 
 
 I'm going to use a broad definition of Polymorphism; Polymorphism is when you have some human written code that behaves differently based on the "type" of the data it works on, and the language facilities that help you make this work.
 
