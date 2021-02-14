@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Poly Method
 ---
+
+title: Poly Method
 
 Polymorphism isn't just virtual functions and inheritance.
 
