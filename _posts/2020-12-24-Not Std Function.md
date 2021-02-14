@@ -1,8 +1,9 @@
 ---
 layout: post
+published: false
+title: Function View
 ---
 
-title: Function View
 
 
 Type erasure based polymorphism example.
